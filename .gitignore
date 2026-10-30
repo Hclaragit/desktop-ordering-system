@@ -1,0 +1,23 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+credentials.json
+client_secret*.json
+token.json
+*service-account*.json
+
+# Archive of older copies of the same source files
+Archive.zip
+__MACOSX/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
